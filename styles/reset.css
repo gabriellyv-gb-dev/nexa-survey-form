@@ -9,4 +9,7 @@
 body {
     font-family: 'Poppins';
     background-image: url('../images/office-meeting-discussion-stockcake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
 }
