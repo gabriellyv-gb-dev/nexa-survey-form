@@ -24,7 +24,7 @@
             </span>
         </div>
 
-        <div class="form-modal">
+        <form class="survey-form">
             <div class="registration-inputs">
                 <div class="input-name">
                     <label for="name">
@@ -48,6 +48,7 @@
                 </div>
             </div>
 
+            <!-- recommendation radios -->
             <div class="round-checkbox-recommend">
                 <h2>
                     Would you recommend <br> 
@@ -76,7 +77,8 @@
                 </div>
             </div>
 
-            <div class="select-functionality-issues">
+            <!-- favorite features -->
+            <div class="select-functionality-features">
                 <h2>
                     What is your favorite feature of Nexa?
                 </h2>
@@ -89,6 +91,7 @@
                 </select>
             </div>
 
+            <!-- improvements checkboxes -->
             <div class="checkbox-like-improved">
                 <h2>
                     What would you like to see improved? (Check all that apply)
@@ -172,21 +175,26 @@
                 </div>
             </div>
 
+            <!-- texarea - user suggestions -->
             <div class="users-suggestions">
                 <h3>
                    Any comments or suggestions? 
                 </h3>
-                <textarea name="suggestions" id="suggestions">
-                    Enter your comment here...
-                </textarea>
+                <textarea 
+                    name="suggestions" 
+                    id="suggestions"
+                    placeholder="Enter your comment here..."
+                    minlength="10"
+                    maxlength="1000"
+                ></textarea>
 
                 <div class="button-submit">
-                    <button>
+                    <button type="submit">
                         Submit
                     </button>
                 </div>
             </div>
-        </div>
+        </form>
     </main>
 </body>
 </html>
