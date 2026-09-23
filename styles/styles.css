@@ -138,6 +138,7 @@
     background-color: #37af65;
 }
 
+/*tablet responsiveness*/
 @media screen and (min-width: 768px) {
     .text-survey-form {
         padding: 3rem;
@@ -243,5 +244,14 @@
     .button-submit button {
         height: 4rem;
         font-size: 1.5rem;
+    }
+}
+
+
+/*desktop responsiveness*/
+@media screen and (min-width: 1280px) {
+    .checkbox-like-improved {
+        width: 100dvw;
+        margin-left: 1.6rem;
     }
 }
